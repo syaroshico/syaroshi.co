@@ -21,6 +21,21 @@
             <div class="content">
               <h1>Let's シャロシコ！シャロシコStep</h1>
                 <div class="category">
+                  <h2>BGM(クリスマス限定)</h2>
+                  <hr>
+                  <div class="col-xs-12 col-sm-3 center"><a class="button pixiv" href="javascript:void(0)" onclick="stop();">なし</a></div>
+                  <div class="col-xs-12 col-sm-3 center"><a class="button nijie" href="javascript:void(0)" onclick="aaa();">ふつう</a></div>
+                  <div class="col-xs-12 col-sm-3 center"><a class="button merobu" href="javascript:void(0)" onclick="bbb();">きたない</a></div>
+                  <div class="col-xs-12 col-sm-3 center"><a class="button tenga"  href="javascript:void(0)" onclick="ccc();">むのう</a></div>
+                  <br>
+                </div>
+                <div class="category">
+                  <h2>宣言(optional)</h2>
+                  <hr>
+                  <div class="col-xs-12 center"><a class="button tweet" href="http://twitter.com/share?text=%e3%82%b7%e3%83%a3%e3%83%ad%e3%82%b7%e3%82%b3%e3%81%99%e3%82%8b%e3%81%9e%ef%bc%81%ef%bc%88%e5%ae%a3%e8%a8%80%ef%bc%89&url=http://syaroshi.co/&hashtags=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3" target="_blank">ツイート</a></div>
+                  <br>
+                </div>
+                <div class="category">
                   <h2>1,シャロを探す</h2>
                   <hr>
                   <div class="col-xs-12 col-sm-4 center"><a class="button pixiv" href="http://www.pixiv.net/search.php?word=%E6%A1%90%E9%96%93%E7%B4%97%E8%B7%AF" target="_blank">Pixiv</a></div>
@@ -87,6 +102,41 @@
         </div>
     </div>
   </div>
+<!--Xmas-->
+<audio id="normal" loop src="audio/normal.wav"></audio>
+<audio id="kitanai" loop src="audio/kitanai.wav"></audio>
+<audio id="muno" loop src="audio/muno.wav"></audio>
+<script>
+var normal=document.getElementById("normal");
+var kitanai=document.getElementById("kitanai");
+var muno=document.getElementById("muno");
+function stop() {
+normal.pause();
+kitanai.pause();
+muno.pause();
+}
+function aaa() {
+stop();
+normal.play();
+}
+function bbb() {
+stop();
+kitanai.play();
+}
+function ccc() {
+stop();
+muno.play();
+}
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/snowfall.jquery.min.js"></script>
+<script>
+//$(document).snowfall({image :"img/img01.png", minSize: 10, maxSize:32});
+//$(document).snowfall({image :"img/img02.png", minSize: 10, maxSize:32});
+//$(document).snowfall({image :"img/img03.png", minSize: 10, maxSize:32});
+//$(document).snowfall({image :"img/img04.png", minSize: 10, maxSize:32});
+$(document).snowfall({image :"img/img05.png", minSize: 10, maxSize:32});
+</script>
 <!--Googleアナリティクス-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
