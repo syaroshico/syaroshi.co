@@ -21,12 +21,9 @@
             <div class="content">
               <h1>Let's シャロシコ！シャロシコStep</h1>
                 <div class="category">
-                  <h2>BGM(クリスマス限定)</h2>
+                  <h2>コミックマーケット89 開催中！</h2>
                   <hr>
-                  <div class="col-xs-12 col-sm-3 center"><a class="button pixiv" href="javascript:void(0)" onclick="stop();">なし</a></div>
-                  <div class="col-xs-12 col-sm-3 center"><a class="button nijie" href="javascript:void(0)" onclick="aaa();">ふつう</a></div>
-                  <div class="col-xs-12 col-sm-3 center"><a class="button merobu" href="javascript:void(0)" onclick="bbb();">きたない</a></div>
-                  <div class="col-xs-12 col-sm-3 center"><a class="button tenga"  href="javascript:void(0)" onclick="ccc();">むのう</a></div>
+                  <div class="col-xs-12 center"><a class="button tenga"  href="https://c89.syaroshi.co">特設ページでシャロシコ本を見つける</a></div>
                   <br>
                 </div>
                 <div class="category">
@@ -102,7 +99,7 @@
         </div>
     </div>
   </div>
-<!--Xmas-->
+<!--Xmasはもう終わった
 <audio id="normal" loop src="audio/normal.wav"></audio>
 <audio id="kitanai" loop src="audio/kitanai.wav"></audio>
 <audio id="muno" loop src="audio/muno.wav"></audio>
@@ -137,6 +134,7 @@ muno.play();
 //$(document).snowfall({image :"img/img04.png", minSize: 10, maxSize:32});
 $(document).snowfall({image :"img/img05.png", minSize: 10, maxSize:32});
 </script>
+-->
 <!--Googleアナリティクス-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
