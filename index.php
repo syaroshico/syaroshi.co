@@ -23,13 +23,13 @@
                 <div class="category">
                   <h2>Happy New Year 2016!!</h2>
                   <hr>
-                  <div class="col-xs-12 center"><p>新年初のオナニーはシャロシコで！！！今年もシャロシコをよろしくお願いします！</p</div>
+                  <div class="col-xs-12 center"><p>新年初のオナニーはシャロシコで！！！今年もシャロシコをよろしくお願いします！</p></div>
                   <br>
                 </div>
                 <div class="category">
                   <h2>宣言(optional)</h2>
                   <hr>
-                  <div class="col-xs-12 center"><a class="button tweet" href="http://twitter.com/share?text=%e3%82%b7%e3%83%a3%e3%83%ad%e3%82%b7%e3%82%b3%e3%81%99%e3%82%8b%e3%81%9e%ef%bc%81%ef%bc%88%e5%ae%a3%e8%a8%80%ef%bc%89&url=http://syaroshi.co/&hashtags=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3" target="_blank">ツイート</a></div>
+                  <div class="col-xs-12 center"><a class="button tweet" href="http://twitter.com/share?text=%e3%82%b7%e3%83%a3%e3%83%ad%e3%82%b7%e3%82%b3%e3%81%99%e3%82%8b%e3%81%9e%ef%bc%81%ef%bc%88%e5%ae%a3%e8%a8%80%ef%bc%89&url=http://syaroshi.co/&hashtags=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3" target="_blank" data-syaroshico="tweet: begin syaroshico.">ツイート</a></div>
                   <br>
                 </div>
                 <div class="category">
@@ -51,7 +51,7 @@
               <div class="category">
                 <h2>3,報告</h2>
                 <hr>
-                <div class="col-xs-12 col-sm-4 center"><a class="button tweet" href="http://twitter.com/share?text=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81&url=http://syaroshi.co/&hashtags=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3" target="_blank">ツイート</a></div>
+                <div class="col-xs-12 col-sm-4 center"><a class="button tweet" href="http://twitter.com/share?text=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81&url=http://syaroshi.co/&hashtags=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3" target="_blank" data-syaroshico="tweet: finished syaroshico.">ツイート</a></div>
                 <div class="col-xs-12 col-sm-4 center"><a class="button facebook" href="http://www.facebook.com/sharer.php?u=http://syaroshi.co/index.php&amp;t=%E3%82%B7%E3%83%A3%E3%83%AD%E3%82%B7%E3%82%B3%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81" target="_blank">Facebookでシェア</a></div>
                 <div class="col-xs-12 col-sm-4 center"><a class="button line" href="http://line.naver.jp/R/msg/text/?%e3%82%b7%e3%83%a3%e3%83%ad%e3%82%b7%e3%82%b3%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81%0d%0ahttp%3a%2f%2fsyaroshi%2eco" target="_blank">LINEで送る</a></div>  
                 <br>
@@ -144,7 +144,18 @@ $(document).snowfall({image :"img/img05.png", minSize: 10, maxSize:32});
 
   ga('create', 'UA-64576587-3', 'auto');
   ga('send', 'pageview');
-
+  
+  // Event tracking: outbound track
+window.document.body.addEventListener('click', function(e) {
+   var t=e.target
+   if(!t.matches('a') ) return;
+   var context = t.dataset && t.dataset.syaroshico ? t.dataset.syaroshico :
+                 t.textContent ? t.textContent :
+                 t.href ? t.href : "Undefined";
+//    console.log(context);
+   ga('send','event','Outbound',e.type,context);
+    
+});
 </script>
 </body>
 </html>
