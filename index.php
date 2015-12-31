@@ -21,9 +21,9 @@
             <div class="content">
               <h1>Let's シャロシコ！シャロシコStep</h1>
                 <div class="category">
-                  <h2>コミックマーケット89 開催中！</h2>
+                  <h2>Happy New Year 2016!!</h2>
                   <hr>
-                  <div class="col-xs-12 center"><a class="button tenga"  href="https://c89.syaroshi.co">特設ページでシャロシコ本を見つける</a></div>
+                  <div class="col-xs-12 center"><p>新年初のオナニーはシャロシコで！！！今年もシャロシコをよろしくお願いします！</p</div>
                   <br>
                 </div>
                 <div class="category">
