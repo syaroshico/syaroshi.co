@@ -58,7 +58,7 @@
               </div>
             </div>
           </div>
-          <!--div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3--->
+          <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3">
           <footer>
             <div class="content">
               <div class="col-xs-12 col-sm-5">
