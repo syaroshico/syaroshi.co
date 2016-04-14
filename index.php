@@ -35,7 +35,7 @@
                 <div class="category">
                   <h2>1,シャロを探す</h2>
                   <hr>
-                  <div class="col-xs-12 col-sm-4 center"><a class="button pixiv" href="http://www.pixiv.net/search.php?word=%E6%A1%90%E9%96%93%E7%B4%97%E8%B7%AF" target="_blank">Pixiv</a></div>
+                  <div class="col-xs-12 col-sm-4 center"><a class="button pixiv" href="http://www.pixiv.net/search.php?word=%E6%A1%90%E9%96%93%E7%B4%97%E8%B7%AF" target="_blank">pixiv</a></div>
                   <div class="col-xs-12 col-sm-4 center"><a class="button nijie" href="http://nijie.info/search.php?word=%E6%A1%90%E9%96%93%E7%B4%97%E8%B7%AF" target="_blank">ニジエ</a></div>
                   <div class="col-xs-12 col-sm-4 center"><a class="button merobu" href="https://www.melonbooks.co.jp/search/search.php?mode=search&search_disp=&chara=&orderby=&disp_number=100&pageno=1&text_type=all&name=%E3%82%B7%E3%83%A3%E3%83%AD&is_end_of_sale2=1&category_ids%5B%5D=1&additional%5B%5D=r18&genre=0&co_name=&ci_name=&sale_date_before=&sale_date_after=&price_low=0&price_high=0&disp_number=100" target="_blank">メロンブックス</a></div>
                   <br>
